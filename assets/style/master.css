@@ -1,0 +1,436 @@
+body{
+    background-color: #183B56;
+}
+main{
+    background-color: #E5E5E5;
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+}
+footer{
+    width: 100%;
+    min-height: 30vh;
+    background-color: #183B56;
+}
+/**********main***********/
+#Header
+{
+    width: 100vw;
+    min-height: 100vh;
+    position: relative;
+}
+#Header>section
+{
+    width: 100%;
+    height: 80vh;
+    background-image: url(../images/Image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0px 0px 25% 25% ;
+    justify-content: center;
+    align-content: flex-start;
+
+}
+#Header>section>header{
+    width: 80%;
+    height: 100px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    color: white ;
+    font-size: 20px;
+    align-items: center;
+}
+#Header>section>header>figure
+{
+    height: 100%;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Header>section>header>figure>img
+{
+    width: 100%;
+    height: 30px;
+}
+#Header>section>header>nav
+{
+    width: (100% - 300px);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+#Header>section>header>a{
+    border: 2px solid white;
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+#Header .menu{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 30px;
+}
+#Header .menu>li{
+    margin: 20px;
+}
+#Header>section>h1{
+    font-size: 4vw;
+    color: white;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-top: 10%;
+}
+#Header>section>div
+{
+    width: 60vw;
+    height: 80px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: 20px;
+}
+#Header>section>div>span
+{
+    color: #959EAD;
+}
+#Header>section>div>a{
+   color: white;
+    background-color: #1565D8;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+#Header .trick
+{
+    width: 80%;
+    height: 400px;
+    background-color: white;
+    position: absolute;
+    bottom: 5vh;
+    left: 10vw;
+    display:flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    border-radius: 20px;
+}
+#Header .trick>figure{
+    width: 50%;
+    height: 100%;
+}
+#Header .trick>figure>img{
+    width: 100%;
+    height: 100%;
+}
+#Header .trick>div
+{
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+}
+#Header .trick>div>h3
+{
+    font-size: 18px;
+    text-transform: uppercase;
+    background-color: #36B37E;
+    color: #1565D8;
+    padding: 5px 10px;
+    opacity: 0.8;
+    border-radius: 20px;
+}
+#Header .trick>div>h2{
+    width: 100%;
+    font-size: 38px;
+    color: #183B56;
+    line-height: 50px;
+}
+#Header .trick>div>p
+{
+    width: 100%;
+    font-size: 20px;
+    color: #5A7184;
+    text-transform: none;
+}
+/*****Header*******/
+/*****Writer*******/
+.writer{
+    width: 240px;
+    height: 40px;
+    color: #183B56;
+    font-size: 10px;
+    font-weight: 100;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.4s;
+}
+.writer:hover{
+    transform: scale(1.2);
+    cursor: default;
+}
+.writer>figure
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.writer>figure>img{
+    width: 100%;
+    height: 100%;
+}
+/*****Writer*******/
+#Article{
+    width: 100%;
+    min-height: 100vh;
+}
+#Article>section
+{
+    width: 80%;
+    margin: 10%;
+}
+#Article>section>h2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 100%;
+    font-size: 38px;
+    color: #183B56;
+    margin-bottom: 30px;
+}
+#Article>section>div
+{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+#Article>section>div>p{
+    width: 50%;
+    padding-right: 20px;
+    color: #5A7184;
+    font-size: 18px;
+}
+#Article>section>div>a
+{
+    color: #1565D8;
+    font-size: 18px;
+    font-weight: 300;
+    border: 2px solid #1565D8;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+#Article .gallery{
+    margin-top: 40px;
+    margin-bottom: 50px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#Article .gallery>figure:first-of-type
+{
+    background-image: url(../images/article1.png);
+}
+#Article .gallery>figure:last-of-type
+{
+    background-image: url(../images/article2.png);
+}
+#Article .gallery>figure{
+    width: 48%;
+    height: 800px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 20px;
+}
+#Article .gallery>figure>img{
+    width: 100%;
+    height: 100%;
+}
+#Article .gallery>figure>div{
+    position: absolute;
+    bottom: 40px;
+    left: 60px;
+    color: white;
+}
+#Article .gallery>figure::after
+{
+    content: "How to prevent and protect your family from Carbon monoxide";
+    text-transform: none;
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    width: 80%;
+    position: absolute;
+    bottom: 200px;
+    left: 60px;
+}
+/*********Article-First***********/
+#RecentArticle{
+    width: 100%;
+    min-height: 100vh;
+}
+#RecentArticle>section
+{
+    width: 80%;
+    margin: 10%;
+}
+#RecentArticle>section>h2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 100%;
+    font-size: 38px;
+    color: #183B56;
+    margin-bottom: 30px;
+}
+#RecentArticle>section>div
+{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+#RecentArticle>section>div>p{
+    width: 50%;
+    padding-right: 20px;
+    color: #5A7184;
+    font-size: 18px;
+}
+#RecentArticle>section>div>a
+{
+    color: #1565D8;
+    font-size: 18px;
+    font-weight: 300;
+    border: 2px solid #1565D8;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+#RecentArticle .gallery{
+    margin-top: 40px;
+    margin-bottom: 50px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#RecentArticle .gallery>figure:first-of-type
+{
+    background-image: url(../images/Base.png);
+}
+#RecentArticle .gallery>figure:nth-last-of-type(2)
+{
+    background-image: url(../images/Base\ \(1\).png);
+}
+#RecentArticle .gallery>figure:last-of-type
+{
+    background-image: url(../images/Base\ \(2\).png);
+}
+#RecentArticle .gallery>figure{
+    width: 32%;
+    height: 600px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 20px;
+}
+#RecentArticle .gallery>figure>img{
+    width: 100%;
+    height: 100%;
+}
+#RecentArticle .gallery>figure>div{
+    position: absolute;
+    bottom: 40px;
+    left: 60px;
+    color: white;
+}
+#RecentArticle .gallery>figure::after
+{
+    content: "";
+    text-transform: none;
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    width: 80%;
+    position: absolute;
+    bottom: 200px;
+    left: 60px;
+}
+#RecentArticle .gallery>figure:nth-of-type(1)::after{
+    content: "Future of Work";
+}
+#RecentArticle .gallery>figure:nth-of-type(2)::after{
+    content: "Future of Data";
+}
+#RecentArticle .gallery>figure:nth-of-type(3)::after{
+    content: "Future of Learning";
+}
+/**********RecentArticles*************/
+#Footer{
+    width: 80%;
+    margin:5% 10%;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+}
+#Footer>div:first-of-type{
+    width: 20%;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#Footer .writer {
+    color: white;
+    scale: 1.2;
+    margin-top: 40px;
+    transition: 0.4s;
+}
+#Footer>div:last-of-type{
+    width: 80%;
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    line-height: 40px;
+}
+#Footer>div>ul>li:first-of-type
+{
+    font-size: 30px;
+    font-weight: 500;
+}
+#Footer>div>ul>li{
+    margin: 10px;
+    transition: 0.4s;
+}
+#Footer>div>ul>li:hover
+{
+    cursor: pointer;
+    scale: 1.2;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
